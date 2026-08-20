@@ -275,6 +275,35 @@ a { color: inherit; }
 .sample-card figcaption b { color: var(--yellow); }
 .gallery-note { display: flex; gap: 0.6rem; align-items: center; margin-top: 2rem; color: #a9a69d; }
 
+.fine-art-page { --fine-art-clay: #986f55; --fine-art-ochre: #c19a55; --fine-art-sage: #74807a; }
+.fine-art-page .hero h1 span { color: var(--fine-art-clay); }
+.fine-art-mark, .fine-art-index { background: var(--fine-art-clay); }
+.fine-art-dot { background: var(--fine-art-clay); }
+.fine-art-partner-mark { background: #b8aa8d; }
+.fine-art-download-mark span { color: var(--fine-art-clay); }
+.fine-art-shape-source span { width: 48%; height: 82%; top: 8%; left: 12%; background: var(--fine-art-sage); border-radius: 52% 48% 45% 55%; }
+.fine-art-shape-source i { right: 12%; bottom: 14%; width: 36%; height: 16%; background: var(--fine-art-ochre); border-radius: 50%; }
+.fine-art-shape-source::after { content: ""; position: absolute; left: 8%; right: 8%; bottom: 25%; height: 1px; background: var(--fine-art-clay); transform: rotate(-10deg); opacity: .7; }
+.fine-art-shape-medium span { left: 16%; bottom: 12%; width: 66%; height: 1px; background: var(--fine-art-clay); transform: rotate(-20deg); transform-origin: left; }
+.fine-art-shape-medium i { left: 38%; top: 15%; width: 2.5rem; height: 2.5rem; background: var(--fine-art-ochre); border-radius: 50%; }
+.fine-art-shape-medium b { right: 14%; bottom: 12%; width: 28%; height: 55%; background: var(--fine-art-sage); clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+.fine-art-shape-space { background: #f7f4ec; }
+.fine-art-shape-space::before { content: ""; position: absolute; left: 14%; top: 18%; width: 62%; height: 62%; border: 1px solid rgba(152,111,85,.45); border-radius: 50%; }
+.fine-art-shape-space span { position: absolute; left: 42%; top: 29%; width: 16%; height: 42%; background: var(--fine-art-clay); border-radius: 50% 50% 45% 45%; }
+.fine-art-shape-space i { position: absolute; left: 33%; bottom: 10%; width: 34%; height: 2px; background: var(--fine-art-sage); transform: rotate(-8deg); }
+.fine-art-shape-space b { position: absolute; right: 10%; top: 10%; width: .65rem; height: .65rem; background: var(--fine-art-ochre); border-radius: 50%; }
+.fine-art-shape-space em { position: absolute; left: 12%; bottom: 10%; width: 1px; height: 65%; background: rgba(17,17,15,.35); transform: rotate(22deg); transform-origin: bottom; }
+.fine-art-preview { padding-bottom: 5rem; }
+.fine-art-preview .section-heading { margin-bottom: 2.5rem; }
+.fine-art-grid, .fine-art-gallery-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+.fine-art-card { margin: 0; }
+.fine-art-card .gallery-image { background: #f8f5ec; border-color: #aaa59a; }
+.fine-art-card .gallery-image img { aspect-ratio: 3 / 4; object-fit: cover; }
+.fine-art-card figcaption { display: flex; justify-content: space-between; gap: .75rem; padding-top: .65rem; color: var(--muted); font-size: .66rem; font-weight: 700; letter-spacing: .09em; }
+.fine-art-card figcaption b { color: var(--fine-art-clay); }
+.fine-art-page .section-dark .fine-art-card figcaption { color: #b9b5aa; }
+.fine-art-page .section-dark .fine-art-card figcaption b { color: #d7b47c; }
+
 .workflow-list { display: grid; grid-template-columns: repeat(4, 1fr); margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
 .workflow-list li { min-height: 15rem; padding: 1rem 1rem 1rem 0; border-right: 1px solid var(--line); }
 .workflow-list li + li { padding-left: 1rem; }
@@ -337,7 +366,7 @@ a { color: inherit; }
   .section { padding-top: 5rem; padding-bottom: 5rem; }
   .section-heading { grid-template-columns: 1fr; gap: 0; margin-bottom: 2.5rem; }
   .section-number { padding-top: 0; }
-  .principle-grid, .gallery-grid, .workflow-list, .reference-layout, .sample-grid { grid-template-columns: 1fr; }
+  .principle-grid, .gallery-grid, .workflow-list, .reference-layout, .sample-grid, .fine-art-grid, .fine-art-gallery-grid { grid-template-columns: 1fr; }
   .principle-card, .principle-card + .principle-card, .workflow-list li, .workflow-list li + li { min-height: auto; padding: 1.5rem 0; border-right: 0; border-bottom: 1px solid var(--line); }
   .principle-card:last-child, .workflow-list li:last-child { border-bottom: 0; }
   .gallery-card-wide .gallery-image img, .gallery-image img { aspect-ratio: 3 / 4; }
