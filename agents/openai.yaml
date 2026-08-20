@@ -1,0 +1,6 @@
+interface:
+  display_name: "Swiss Poster Composer"
+  short_description: "从单张照片生成严格 Swiss Grid 双段式摄影海报"
+  default_prompt: "使用 $swiss-poster-composer，将这张照片保留主体并转译成一张 3:4 的 Swiss International Style 摄影海报。"
+policy:
+  allow_implicit_invocation: true
