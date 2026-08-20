@@ -1,0 +1,7 @@
+interface:
+  display_name: "Fine Art Poster Translator"
+  short_description: "将单张照片转译为留白型高级艺术海报"
+  default_prompt: "使用 $fine-art-poster-translator，将这张照片制作成上下约 1:1 的 3:4 高级艺术海报：上半部保留真实摄影，下半部用指定艺术媒介转译同一主体。"
+policy:
+  allow_implicit_invocation: true
+
