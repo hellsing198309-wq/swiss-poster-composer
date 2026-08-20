@@ -4,6 +4,9 @@
 
 [打开视觉主页](./index.html) · [阅读完整 Skill](./SKILL.md)
 
+> **星野AI聚合网站**  
+> 汇集 AI 工具与服务入口，访问 [xyhub666.com](https://xyhub666.com/) 继续探索。
+
 ![Swiss Poster Composer 视觉基准：Nordic Horizon 山景摄影与几何抽象](./assets/reference-nordic-horizon.png)
 
 ## 这是什么
