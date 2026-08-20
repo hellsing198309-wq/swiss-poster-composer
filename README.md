@@ -7,18 +7,9 @@
 > **星野AI聚合网站**  
 > 汇集 AI 工具与服务入口，访问 [xyhub666.com](https://xyhub666.com/) 继续探索。
 
-## 第二套 Skill：Fine Art Poster Translator
+## 平级的水彩艺术海报 Skill
 
-仓库现在同时包含一套独立的高级艺术海报 Skill：[打开 Fine Art Poster Translator](./fine-art-poster-translator/index.html) · [阅读 SKILL.md](./fine-art-poster-translator/SKILL.md)。
-
-它对应你最新提供的 4 张正式样本：每张照片单独输出一张 3:4 海报，上半部保持真实摄影，下半部以克制水彩 / 墨彩或用户指定艺术媒介，在大面积暖白纸张留白中转译同一主体。它不使用 Swiss Grid 几何抽象，避免两套视觉规则互相污染。
-
-| 正式参考 | 转译重点 |
-| --- | --- |
-| [SUNSET REFLECTION](./fine-art-poster-translator/assets/sunset-reflection-watercolor.png) | 潮滩、天空、倒影、人物与小车 |
-| [HUMMINGBIRD](./fine-art-poster-translator/assets/hummingbird-watercolor.png) | 蜂鸟轮廓、羽毛色层与枝条方向 |
-| [LAKE COUPLE](./fine-art-poster-translator/assets/lake-couple-watercolor.png) | 情侣姿态、湖面、台阶与松枝 |
-| [MUSICIAN](./fine-art-poster-translator/assets/musician-watercolor.png) | 演奏者、弦乐器、圆形构件与现场线条 |
+水彩 / 墨彩艺术海报已整理为独立仓库，不属于本 Swiss 仓库：[Fine Art Poster Translator GitHub](https://github.com/hellsing198309-wq/fine-art-poster-translator) · [在线视觉主页](https://hellsing198309-wq.github.io/fine-art-poster-translator/)。
 
 ![Swiss Poster Composer 视觉基准：Nordic Horizon 山景摄影与几何抽象](./assets/reference-nordic-horizon.png)
 
